@@ -1,0 +1,2 @@
+ExecStart: This is the command that systemd will run to start Prometheus. Make sure you specify the correct paths to your Prometheus executable and configuration file.
+--storage.tsdb.path=/path/to/directory: Replace this with the directory where you want to store Prometheus data, if you're not using the default.
